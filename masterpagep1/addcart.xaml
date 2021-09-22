@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:cards="clr-namespace:PanCardView;assembly=PanCardView"
+             x:Class="masterpagep1.addcart" Title="Overview">
+    <ContentPage.Content>
+        <AbsoluteLayout BackgroundColor="WhiteSmoke" >
+            <StackLayout BackgroundColor="White" AbsoluteLayout.LayoutBounds="0.5,0,400,300" AbsoluteLayout.LayoutFlags="XProportional">
+
+                <cards:CarouselView x:Name="slider1">
+                    <cards:CarouselView.ItemTemplate>
+                        <DataTemplate>
+                            <ContentView>
+                                <Frame BackgroundColor="Transparent"
+                                       
+                        VerticalOptions="Center"
+                        HorizontalOptions="Center"
+                       HeightRequest="400"
+                        WidthRequest="400"
+                        Padding="0"
+                        HasShadow="False"
+                        IsClippedToBounds="True"
+                        CornerRadius="10">
+                                    <Image Aspect="AspectFit" Source="{Binding .}"></Image>
+                                </Frame>
+                            </ContentView>
+                        </DataTemplate>
+                    </cards:CarouselView.ItemTemplate>
+                </cards:CarouselView>
+                <!--<ImageButton HeightRequest="300" WidthRequest="400" Source="tshirt.jpg" BackgroundColor="White" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Aspect="AspectFit"></ImageButton>-->
+            </StackLayout>
+            <StackLayout Orientation="Vertical" BackgroundColor="White" AbsoluteLayout.LayoutBounds="0.5,300,380,50" AbsoluteLayout.LayoutFlags="XProportional">
+                <Label Text="CASUAl T-SHIRTS" Margin="28,5,0,0" TextColor="Black" FontSize="Medium" HorizontalOptions="Start" VerticalOptions="Start"></Label>
+                <Label Text="US $39.99" TextColor="Black"  Margin="0,-30,20,10" FontSize="Medium" HorizontalOptions="End" VerticalOptions="End"></Label>
+                <Label Text="By BILAL" Margin="28,-19,0,10" TextColor="OrangeRed" FontSize="Small" HorizontalOptions="Start" VerticalOptions="Start"></Label>
+
+            </StackLayout>
+            <StackLayout AbsoluteLayout.LayoutBounds="0.5,350,450,250" BackgroundColor="White" AbsoluteLayout.LayoutFlags="XProportional" >
+                <Label Text="classical shirt.casual shirt feel good style this is the shirt you need" Margin="70,40,100,0" WidthRequest="170" HeightRequest="50" HorizontalOptions="Start" VerticalOptions="Start" ></Label>
+                <Image Source="star.png" BackgroundColor="Transparent" Aspect="AspectFit" WidthRequest="70"  HeightRequest="70" Margin="70,-9,0,10" HorizontalOptions="Start" VerticalOptions="StartAndExpand"></Image> 
+                <Button x:Name="cart" Clicked="Cart_Clicked" Text="ADD to Cart" TextColor="White" BackgroundColor="DarkMagenta" BorderRadius="30" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="290" Margin="0,0,0,18"></Button>
+            </StackLayout>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>
