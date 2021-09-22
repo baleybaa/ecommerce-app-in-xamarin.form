@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="masterpagep1.Featured">
+    <ContentPage.Content>
+        <ScrollView>
+            <AbsoluteLayout BackgroundColor="#e8e8e8">
+
+                <StackLayout Grid.Column="1" Grid.Row="0" Orientation="Vertical" HeightRequest="200" WidthRequest="350" AbsoluteLayout.LayoutBounds="0.5,0,350,220" AbsoluteLayout.LayoutFlags="XProportional" >
+                    <Image Source="camera1.jpg" Margin="230,13,0,0" HeightRequest="120" WidthRequest="120" Aspect="AspectFill" HorizontalOptions="Start" VerticalOptions="StartAndExpand"></Image>
+
+                    <Label Text="Consumer Eletronics" TextColor="Black" FontSize="Medium" HorizontalOptions="Start" Margin="30,-230,0,100"  VerticalOptions="StartAndExpand"></Label>
+
+                    <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Orientation="Horizontal" Margin="30,-200,100,40">
+                        <ImageButton  Source="ledtv2.jpg" HeightRequest="100" WidthRequest="100" Aspect="AspectFill"></ImageButton>
+                        <ImageButton Source="ledtv.jpg" HeightRequest="100" WidthRequest="100" Aspect="AspectFill"></ImageButton>
+                        <ImageButton  Source="wire.jpg" HeightRequest="100" WidthRequest="100" Aspect="AspectFill"></ImageButton>
+                    </StackLayout>
+                </StackLayout>
+                
+            
+                <StackLayout AbsoluteLayout.LayoutBounds="0.5,230,380,30"   AbsoluteLayout.LayoutFlags="XProportional">
+                    <Label Text="Apparel >" TextColor="Black" FontAttributes="Bold" Margin="30,0,0,0" FontSize="Large" HorizontalOptions="Start"></Label>
+
+                </StackLayout>
+                <Grid BackgroundColor="White" AbsoluteLayout.LayoutBounds="0.5,260,380,220"   AbsoluteLayout.LayoutFlags="XProportional">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="0.5*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.5*"></ColumnDefinition>
+                        <ColumnDefinition Width="0.5*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <!--<Button Grid.Column="0" Grid.Row="0" BackgroundColor="Transparent" x:Name="jacket"></Button>-->
+                    <Label  Text=" Top-Selling
+                               products" TextColor="Black"  Margin="19,9,0,0" HorizontalOptions="Start" VerticalOptions="StartAndExpand" Grid.Column="0 " Grid.Row="0"></Label>
+                    <ImageButton Aspect="AspectFit" Source="Jacket.jpg" HeightRequest="120" BackgroundColor="Transparent" WidthRequest="120" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"  Grid.Column="0" Grid.Row="0"></ImageButton>
+                    <!--<Button Grid.Column="1" Grid.Row="0" BackgroundColor="Transparent" x:Name="hood" ></Button>-->
+                    <Label Text=" Hot Import In
+                               Pakistan" TextColor="Black" Margin="19,9,0,0" HorizontalOptions="Start" VerticalOptions="StartAndExpand" Grid.Column="1 " Grid.Row="0"></Label>
+                    <ImageButton Aspect="AspectFit" Source="hood.jpg" HeightRequest="120" BackgroundColor="Transparent" WidthRequest="120" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"  Grid.Column="1" Grid.Row="0"></ImageButton>
+                </Grid>
+                <StackLayout AbsoluteLayout.LayoutBounds="0.5,474,380,30"   AbsoluteLayout.LayoutFlags="XProportional">
+                    <Label Text="Agriculture >" TextColor="Black" FontAttributes="Bold" Margin="30,0,0,0" FontSize="Large" HorizontalOptions="Start"></Label>
+
+                </StackLayout>
+                <Grid BackgroundColor="White" AbsoluteLayout.LayoutBounds="0.5,508,380,220"   AbsoluteLayout.LayoutFlags="XProportional">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="0.5*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.5*"></ColumnDefinition>
+                        <ColumnDefinition Width="0.5*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <!--<Button Grid.Column="0" Grid.Row="0" BackgroundColor="Transparent" ></Button>-->
+                    <Label  Text=" Top-Selling
+                               products" TextColor="Black"  Margin="19,9,0,0" HorizontalOptions="Start" VerticalOptions="StartAndExpand" Grid.Column="0 " Grid.Row="0"></Label>
+                    <ImageButton Aspect="AspectFill" Source="agri1.jpg" HeightRequest="120" BackgroundColor="Transparent" WidthRequest="120" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"  Grid.Column="0" Grid.Row="0"></ImageButton>
+                    <!--<Button Grid.Column="1" Grid.Row="0" BackgroundColor="Transparent" ></Button>-->
+                    <Label Text=" Hot Import In
+                               Pakistan" TextColor="Black" Margin="19,9,0,0" HorizontalOptions="Start" VerticalOptions="StartAndExpand" Grid.Column="1 " Grid.Row="0"></Label>
+                    <ImageButton Aspect="AspectFit" Source="agri2.jpg" HeightRequest="120" BackgroundColor="Transparent" WidthRequest="120" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"  Grid.Column="1" Grid.Row="0"></ImageButton>
+                </Grid>
+                <StackLayout AbsoluteLayout.LayoutBounds="0.5,729,380,30"   AbsoluteLayout.LayoutFlags="XProportional">
+                    <Label Text="Hardware, Tools >" TextColor="Black" FontAttributes="Bold" Margin="30,0,0,0" FontSize="Large" HorizontalOptions="Start"></Label>
+
+                </StackLayout>
+                <Grid BackgroundColor="White" AbsoluteLayout.LayoutBounds="0.5,760,380,220"   AbsoluteLayout.LayoutFlags="XProportional">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="0.5*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.5*"></ColumnDefinition>
+                        <ColumnDefinition Width="0.5*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <!--<Button Grid.Column="0" Grid.Row="0" BackgroundColor="Transparent" ></Button>-->
+                    <Label  Text=" Top-Selling
+                               products" TextColor="Black"  Margin="19,9,0,0" HorizontalOptions="Start" VerticalOptions="StartAndExpand" Grid.Column="0 " Grid.Row="0"></Label>
+                    <ImageButton Aspect="AspectFill" Source="hard1.jpg" HeightRequest="120" BackgroundColor="Transparent" WidthRequest="120" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"  Grid.Column="0" Grid.Row="0"></ImageButton>
+                    <Button Grid.Column="1" Grid.Row="0" BackgroundColor="Transparent" ></Button>
+                    <!--<Label Text=" Hot Import In
+                               Pakistan" TextColor="Black" Margin="19,9,0,0" HorizontalOptions="Start" VerticalOptions="StartAndExpand" Grid.Column="1 " Grid.Row="0"></Label>-->
+                    <ImageButton Aspect="AspectFill" Source="hard2.jpg" HeightRequest="120" BackgroundColor="Transparent" WidthRequest="120" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"  Grid.Column="1" Grid.Row="0"></ImageButton>
+                </Grid>
+                <StackLayout AbsoluteLayout.LayoutBounds="0.5,981,380,30"   AbsoluteLayout.LayoutFlags="XProportional" >
+                    <Label Text="Machinery >" TextColor="Black" FontAttributes="Bold" Margin="30,0,0,0" FontSize="Large" HorizontalOptions="Start"></Label>
+
+                </StackLayout>
+                <Grid BackgroundColor="White" AbsoluteLayout.LayoutBounds="0.5,1012,380,220"   AbsoluteLayout.LayoutFlags="XProportional">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="0.5*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.5*"></ColumnDefinition>
+                        <ColumnDefinition Width="0.5*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <!--<Button Grid.Column="0" Grid.Row="0" BackgroundColor="Transparent" ></Button>-->
+                    <Label  Text=" Top-Selling
+                               products" TextColor="Black"  Margin="19,9,0,0" HorizontalOptions="Start" VerticalOptions="StartAndExpand" Grid.Column="0 " Grid.Row="0"></Label>
+                    <ImageButton Aspect="AspectFill" Source="mach.jpg" HeightRequest="120" BackgroundColor="Transparent" WidthRequest="120" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"  Grid.Column="0" Grid.Row="0"></ImageButton>
+                    <!--<Button Grid.Column="1" Grid.Row="0" BackgroundColor="Transparent" ></Button>-->
+                    <!--<Label Text=" Hot Import In
+                               Pakistan" TextColor="Black" Margin="19,9,0,0" HorizontalOptions="Start" VerticalOptions="StartAndExpand" Grid.Column="1 " Grid.Row="0"></Label>-->
+                    <ImageButton Aspect="AspectFill" Source="mach1.jpg" HeightRequest="120" BackgroundColor="Transparent" WidthRequest="120" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"  Grid.Column="1" Grid.Row="0"></ImageButton>
+                </Grid>
+                <StackLayout AbsoluteLayout.LayoutBounds="0.5,1234,380,30"   AbsoluteLayout.LayoutFlags="XProportional">
+                    <Label Text="Security, Protection >" TextColor="Black" FontAttributes="Bold" Margin="30,0,0,0" FontSize="Large" HorizontalOptions="Start"></Label>
+
+                </StackLayout>
+                <Grid BackgroundColor="White" AbsoluteLayout.LayoutBounds="0.5,1265,380,220"   AbsoluteLayout.LayoutFlags="XProportional">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="0.5*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.5*"></ColumnDefinition>
+                        <ColumnDefinition Width="0.5*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <!--<Button Grid.Column="0" Grid.Row="0" BackgroundColor="Transparent" ></Button>-->
+                    <Label  Text=" Top-Selling
+                               products" TextColor="Black"  Margin="19,9,0,0" HorizontalOptions="Start" VerticalOptions="StartAndExpand" Grid.Column="0 " Grid.Row="0"></Label>
+                    <ImageButton Aspect="AspectFit" Source="sect1.jpg" HeightRequest="120" BackgroundColor="Transparent" WidthRequest="120" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"  Grid.Column="0" Grid.Row="0"></ImageButton>
+                    <!--<Button Grid.Column="1" Grid.Row="0" BackgroundColor="Transparent" ></Button>-->
+                    <!--<Label Text=" Hot Import In
+                               Pakistan" TextColor="Black" Margin="19,9,0,0" HorizontalOptions="Start" VerticalOptions="StartAndExpand" Grid.Column="1 " Grid.Row="0"></Label>-->
+                    <ImageButton Aspect="AspectFill" Source="sect2.jpg" HeightRequest="120" BackgroundColor="Transparent" WidthRequest="120" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"  Grid.Column="1" Grid.Row="0"></ImageButton>
+                </Grid>
+                <StackLayout AbsoluteLayout.LayoutBounds="0.5,1490,380,30"   AbsoluteLayout.LayoutFlags="XProportional" BackgroundColor="Transparent">
+                    <Label Text="Loading..." TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center"></Label>
+
+                </StackLayout>
+            </AbsoluteLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

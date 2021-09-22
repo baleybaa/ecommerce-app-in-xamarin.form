@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local1="clr-namespace:masterpagep1"
+            x:Class="masterpagep1.deals" Title="DEALs">
+    <local1:Featured Title="FEATURED"></local1:Featured>
+    <local1:TECH Title="TECH"></local1:TECH>
+    <local1:Fashion Title="FASHION"></local1:Fashion>
+    <local1:More Title="MORE"></local1:More>
+</TabbedPage>
