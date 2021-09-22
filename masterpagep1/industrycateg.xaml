@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="masterpagep1.industrycateg" Title="InDustry Market">
+  
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+        <Grid BackgroundColor="White" Margin="10,0,10,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.6*"></RowDefinition>
+                <RowDefinition Height="0.6*"></RowDefinition>
+                <RowDefinition Height="0.6*"></RowDefinition>
+                <RowDefinition Height="0.6*"></RowDefinition>
+                <RowDefinition Height="0.6*"></RowDefinition>
+                <RowDefinition Height="0.6*"></RowDefinition>
+                <RowDefinition Height="0.6*"></RowDefinition>
+                <RowDefinition Height="0.6*"></RowDefinition>
+                <RowDefinition Height="0.6*"></RowDefinition>
+                <RowDefinition Height="0.6*"></RowDefinition>
+                <RowDefinition Height="0.6*"></RowDefinition>
+                <RowDefinition Height="0.6*"></RowDefinition>
+                <RowDefinition Height="0.6*"></RowDefinition>
+                <RowDefinition Height="0.6*"></RowDefinition>
+                <RowDefinition Height="0.6*"></RowDefinition>
+                <RowDefinition Height="0.6*"></RowDefinition>
+                <RowDefinition Height="0.6*"></RowDefinition>
+                <RowDefinition Height="0.6*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.6*"></ColumnDefinition>
+                <ColumnDefinition Width="0.6*"></ColumnDefinition>
+
+            </Grid.ColumnDefinitions>
+                <!--<Button BackgroundColor="Black" Grid.Column="0" Grid.Row="0"></Button>-->
+                <ImageButton BackgroundColor="Transparent" Opacity="40"  Grid.Column="0" Grid.Row="0" Aspect="AspectFill" HeightRequest="130" WidthRequest="130" Source="agriculture.jpg"></ImageButton>
+                <Label Grid.Column="0" Grid.Row="0"  Text="AgriCulture" FontSize="Medium" TextColor="White" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+            
+                <!--<Button BackgroundColor="Violet" Grid.Column="1" Grid.Row="0"></Button>-->
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="1" Grid.Row="0" Aspect="AspectFill" HeightRequest="130" WidthRequest="130" Source="apparel.jpg"></ImageButton>
+                    <Label Grid.Column="1" Grid.Row="0" Text="Apparel" TextColor="White" FontSize="Medium" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+            
+                    <!--<Button BackgroundColor="Beige" Grid.Column="0" Grid.Row="1"></Button>-->
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="0" Grid.Row="1" Aspect="AspectFill" HeightRequest="130" WidthRequest="130" Source="baby.jpg"></ImageButton>
+                    <Label Grid.Column="0" Grid.Row="1" Text="Baby" TextColor="White" FontSize="Medium" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+            
+                    <!--<Button BackgroundColor="Bisque" Grid.Column="1" Grid.Row="1"></Button>-->
+                    <ImageButton  BackgroundColor="Transparent" Grid.Column="1" Grid.Row="1" Aspect="AspectFill" HeightRequest="130" WidthRequest="130" Source="beauti.jpg"></ImageButton>
+                    <Label Grid.Column="1" Grid.Row="1" Text="beauty, personal care" TextColor="White" FontSize="Medium" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+            
+                    <!--<Button BackgroundColor="Black" Grid.Column="0" Grid.Row="2"></Button>-->
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="0" Grid.Row="2" Aspect="AspectFill" HeightRequest="130" WidthRequest="130" Source="bussiness.jpg"></ImageButton>
+                    <Label Grid.Column="0" Grid.Row="2" Text="Bussiness services" TextColor="White" FontSize="Medium" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+            
+                    <!--<Button BackgroundColor="Azure" Grid.Column="1" Grid.Row="2"></Button>-->
+                    <ImageButton BackgroundColor="Transparent"  Grid.Column="1" Grid.Row="2" Aspect="AspectFit" HeightRequest="130" WidthRequest="130" Source="chemical.jpg"></ImageButton>
+                    <Label Grid.Column="1" Grid.Row="2" Text="Chemicals" TextColor="White" FontSize="Medium" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+            
+                    <!--<Button BackgroundColor="SaddleBrown" Grid.Column="0" Grid.Row="3"></Button>-->
+                    <ImageButton BackgroundColor="Transparent"  Grid.Column="0" Grid.Row="3" Aspect="AspectFill" HeightRequest="130" WidthRequest="130" Source="Construction.jpg"></ImageButton>
+                    <Label Grid.Column="0" Grid.Row="3" Text="Construction, Real Estate" FontSize="Medium" TextColor="White" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+            
+                    <!--<Button BackgroundColor="Accent" Grid.Column="1" Grid.Row="3"></Button>-->
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="1" Grid.Row="3" Aspect="AspectFill" HeightRequest="130" WidthRequest="130" Source="eletroincs.jpg"></ImageButton>
+                    <Label Grid.Column="1" Grid.Row="3" Text="Consumer Eletronics" TextColor="White" FontSize="Medium" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+            
+                    <!--<Button BackgroundColor="Red" Grid.Column="0" Grid.Row="4"></Button>-->
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="0" Grid.Row="4" Aspect="AspectFill" HeightRequest="130" WidthRequest="130" Source="eleterical.jpg"></ImageButton>
+                    <Label Grid.Column="0" Grid.Row="4" Text="Electrical Equipment" TextColor="White" FontSize="Medium" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+            
+                    <!--<Button BackgroundColor="Blue" Grid.Column="1" Grid.Row="4"></Button>-->
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="1" Grid.Row="4" Aspect="AspectFill" HeightRequest="130" WidthRequest="130" Source="telecomm.jpg"></ImageButton>
+                    <Label Grid.Column="1" Grid.Row="4" Text="Telecommunication Acccessories" TextColor="White" FontSize="Medium" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+            
+                    <!--<Button BackgroundColor="OldLace" Grid.Column="0" Grid.Row="5"></Button>-->
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="0" Grid.Row="5" Aspect="AspectFill" HeightRequest="130" WidthRequest="130" Source="energy.jpg"></ImageButton>
+                    <Label Grid.Column="0" Grid.Row="5" Text="Energy" TextColor="White" FontSize="Medium" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+            
+                    <!--<Button BackgroundColor="Teal" Grid.Column="1" Grid.Row="5"></Button>-->
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="1" Grid.Row="5" Aspect="AspectFill" HeightRequest="130" WidthRequest="130" Source="fabrication.jpg"></ImageButton>
+                    <Label Grid.Column="1" Grid.Row="5" Text="Fabrication Servicces" TextColor="White" FontSize="Medium" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+            
+                    <!--<Button  BackgroundColor="Maroon" Grid.Column="0" Grid.Row="6"></Button>-->
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="0" Grid.Row="6" Aspect="AspectFill" HeightRequest="130" WidthRequest="130" Source="fashion.jpg"></ImageButton>
+                    <Label Grid.Column="0" Grid.Row="6" Text="Fashion Accessroies" TextColor="White" FontSize="Medium" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+            
+                    <!--<Button BackgroundColor="FloralWhite" Grid.Column="1" Grid.Row="6"></Button>-->
+                    <ImageButton BackgroundColor="Transparent"  Grid.Column="1" Grid.Row="6" Aspect="AspectFill" HeightRequest="130" WidthRequest="130" Source="food.jpg"></ImageButton>
+                    <Label Grid.Column="1" Grid.Row="6" Text="Food, Beverage" TextColor="White" FontSize="Medium" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+            
+                    <!--<Button BackgroundColor="AntiqueWhite" Grid.Column="0" Grid.Row="7"></Button>-->
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="0" Grid.Row="7" Aspect="AspectFill" HeightRequest="130" WidthRequest="130" Source="furniture.jpg"></ImageButton>
+                    <Label Grid.Column="0" Grid.Row="7" Text="Furniture" TextColor="White" FontSize="Medium" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+            
+                    <!--<Button BackgroundColor="DarkBlue" Grid.Column="1" Grid.Row="7"></Button>-->
+                    <ImageButton BackgroundColor="Transparent"  Grid.Column="1" Grid.Row="7" Aspect="AspectFill" HeightRequest="130" WidthRequest="130" Source="gardenn.jpg"></ImageButton>
+                    <Label Grid.Column="1" Grid.Row="7" Text="Garden Supplies" TextColor="White" FontSize="Medium" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+            
+                    <!--<Button BackgroundColor="Chartreuse" Grid.Column="0" Grid.Row="8"></Button>-->
+                    <ImageButton BackgroundColor="Transparent"  Grid.Column="0" Grid.Row="8" Aspect="AspectFill" HeightRequest="130" WidthRequest="130" Source="gift.jpg"></ImageButton>
+                    <Label Grid.Column="0" Grid.Row="8" Text="Gifts, Crafts" TextColor="White" FontSize="Medium" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+            
+                    <!--<Button BackgroundColor="Accent" Grid.Column="1" Grid.Row="8"></Button>-->
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="1" Grid.Row="8" Aspect="AspectFill" HeightRequest="130" WidthRequest="130" Source="health.jpg"></ImageButton>
+                    <Label Grid.Column="1" Grid.Row="8" Text="Health, Medical" TextColor="White" FontSize="Medium" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+            
+                    <!--<Button BackgroundColor="Yellow" Grid.Column="0" Grid.Row="9"></Button>-->
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="0" Grid.Row="9" Aspect="AspectFill" HeightRequest="130" WidthRequest="130" Source="kitchen.jpg"></ImageButton>
+                    <Label Grid.Column="0" Grid.Row="9" Text="Home, Kitchen" TextColor="White" FontSize="Medium" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+            
+                    <!--<Button BackgroundColor="YellowGreen" Grid.Column="1" Grid.Row="9"></Button>-->
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="1" Grid.Row="9" Aspect="AspectFill" HeightRequest="130" WidthRequest="130" Source="appliences.jpg"></ImageButton>
+                    <Label Grid.Column="1" Grid.Row="9" Text="Home Appliances" TextColor="White" FontSize="Medium" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+            
+                    <!--<Button BackgroundColor="Yellow" Grid.Column="0" Grid.Row="10"></Button>-->
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="0" Grid.Row="10" Aspect="AspectFill" HeightRequest="130" WidthRequest="130" Source="lights.jpg"></ImageButton>
+                    <Label Grid.Column="0" Grid.Row="10" Text="Lights" TextColor="White" FontSize="Medium" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+            
+                    <!--<Button BackgroundColor="Yellow" Grid.Column="1" Grid.Row="10"></Button>-->
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="1" Grid.Row="10" Aspect="AspectFill" HeightRequest="130" WidthRequest="130" Source="luggage.jpg"></ImageButton>
+                    <Label Grid.Column="1" Grid.Row="10" Text="Luggage,Bags" FontSize="Medium" TextColor="White" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+            
+                    <!--<Button BackgroundColor="Yellow" Grid.Column="0" Grid.Row="11"></Button>-->
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="0" Grid.Row="11" Aspect="AspectFill" HeightRequest="130" WidthRequest="130" Source="machinery.jpg"></ImageButton>
+                    <Label Grid.Column="0" Grid.Row="11" Text="Machinery" TextColor="White" FontSize="Medium" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+            
+                    <!--<Button BackgroundColor="Yellow" Grid.Column="1" Grid.Row="11"></Button>-->
+                    <ImageButton BackgroundColor="Transparent"  Grid.Column="1" Grid.Row="11" Aspect="AspectFill" HeightRequest="130" WidthRequest="130" Source="mineral.jpg"></ImageButton>
+                    <Label Grid.Column="1" Grid.Row="11" Text="Mineral, Metallurgy" TextColor="White" FontSize="Medium" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+            
+                    <!--<Button BackgroundColor="Yellow" Grid.Column="0" Grid.Row="12"></Button>-->
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="0" Grid.Row="12" Aspect="AspectFill" HeightRequest="130" WidthRequest="130" Source="office.jpg"></ImageButton>
+                    <Label Grid.Column="0" Grid.Row="12" Text="Office, School Supplies" TextColor="White" FontSize="Medium" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+            
+                    <!--<Button BackgroundColor="Yellow" Grid.Column="1" Grid.Row="12"></Button>-->
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="1" Grid.Row="12" Aspect="AspectFill" HeightRequest="130" WidthRequest="130" Source="packaging.jpg"></ImageButton>
+                    <Label Grid.Column="1" Grid.Row="12" Text="Packaging, Printing" TextColor="White" FontSize="Medium" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+            
+                    <!--<Button BackgroundColor="Yellow" Grid.Column="0" Grid.Row="13"></Button>-->
+                    <ImageButton BackgroundColor="Transparent"  Grid.Column="0" Grid.Row="13" Aspect="AspectFit" HeightRequest="130" WidthRequest="130" Source="pet.jpg"></ImageButton>
+                    <Label Grid.Column="0" Grid.Row="13" Text="Pet Products" TextColor="White" FontSize="Medium" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+            
+                    <!--<Button BackgroundColor="Yellow" Grid.Column="1" Grid.Row="13"></Button>-->
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="1" Grid.Row="13" Aspect="AspectFill" HeightRequest="130" WidthRequest="130" Source="rubber.jpg"></ImageButton>
+                    <Label Grid.Column="1" Grid.Row="13" Text="Rubber, Plastics" TextColor="White" FontSize="Medium" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+            
+                    <!--<Button BackgroundColor="Yellow" Grid.Column="0" Grid.Row="14"></Button>-->
+                    <ImageButton  BackgroundColor="Transparent" Grid.Column="0" Grid.Row="14" Aspect="AspectFill" HeightRequest="130" WidthRequest="130" Source="security.jpg"></ImageButton>
+                    <Label Grid.Column="0" Grid.Row="14" Text="Security, Protection" TextColor="White" FontSize="Medium" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+            
+                    <!--<Button BackgroundColor="Yellow" Grid.Column="1" Grid.Row="14"></Button>-->
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="1" Grid.Row="14" Aspect="AspectFill" HeightRequest="130" WidthRequest="130" Source="services.jpg"></ImageButton>
+                    <Label Grid.Column="1" Grid.Row="14" Text="Service Equipment" TextColor="White" FontSize="Medium" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+            
+                    <!--<Button BackgroundColor="Yellow" Grid.Column="0" Grid.Row="15"></Button>-->
+                    <ImageButton BackgroundColor="Transparent"  Grid.Column="0" Grid.Row="15" Aspect="AspectFill" HeightRequest="130" WidthRequest="130" Source="shoes.jpg"></ImageButton>
+                    <Label Grid.Column="0" Grid.Row="15" Text="Shoes, Accessroies" TextColor="White" FontSize="Medium" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+            
+                    <!--<Button BackgroundColor="Yellow" Grid.Column="1" Grid.Row="15"></Button>-->
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="1" Grid.Row="15" Aspect="AspectFill" HeightRequest="130" WidthRequest="130" Source="sports.jpg"></ImageButton>
+                    <Label Grid.Column="1" Grid.Row="15" Text="Sports" TextColor="White" FontSize="Medium" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+            
+                    <!--<Button BackgroundColor="Yellow" Grid.Column="0" Grid.Row="16"></Button>-->
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="0" Grid.Row="16" Aspect="AspectFill" HeightRequest="130" WidthRequest="130" Source="fabric.jpg"></ImageButton>
+                    <Label Grid.Column="0" Grid.Row="16" Text="Fabric, textile" TextColor="White" FontSize="Medium" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+            
+                    <!--<Button BackgroundColor="Yellow" Grid.Column="1" Grid.Row="16"></Button>-->
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="1" Grid.Row="16" Aspect="AspectFill" HeightRequest="130" WidthRequest="130" Source="timepices.jpg"></ImageButton>
+                    <Label Grid.Column="1" Grid.Row="16" Text="TimePices, Jewelry" TextColor="White" FontSize="Medium" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+            
+                    <!--<Button BackgroundColor="Yellow" Grid.Column="0" Grid.Row="17"></Button>-->
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="0" Grid.Row="17" Aspect="AspectFill" HeightRequest="130" WidthRequest="130" Source="tool.jpg"></ImageButton>
+                    <Label Grid.Column="0" Grid.Row="17" Text="Tools, Hardware" TextColor="White" FontSize="Medium" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+            
+                    <!--<Button BackgroundColor="Yellow" Grid.Column="1" Grid.Row="17"></Button>-->
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="1" Grid.Row="17" Aspect="AspectFill" HeightRequest="130" WidthRequest="130" Source="toys.jpg"></ImageButton>
+                    <Label Grid.Column="1" Grid.Row="17" Text="Toys, Hobbies" TextColor="White" FontSize="Medium" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+            
+                    <!--<Button BackgroundColor="Yellow" Grid.Column="0" Grid.Row="18"></Button>--><!--
+                    <ImageButton  Grid.Column="0" Grid.Row="18" Aspect="AspectFit" HeightRequest="130" WidthRequest="130" Source="Jacket.jpg"></ImageButton>
+                    <Label Grid.Column="0" Grid.Row="18" Text="JAckets" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>
+            
+                    --><!--<Button BackgroundColor="Yellow" Grid.Column="1" Grid.Row="18"></Button>--><!--
+                    <ImageButton  Grid.Column="1" Grid.Row="18" Aspect="AspectFit" HeightRequest="130" WidthRequest="130" Source="Jacket.jpg"></ImageButton>
+                    <Label Grid.Column="1" Grid.Row="18" Text="JAckets" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Label>-->
+            
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+  
+</ContentPage>

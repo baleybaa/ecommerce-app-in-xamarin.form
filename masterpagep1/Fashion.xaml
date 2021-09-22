@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="masterpagep1.Fashion" Title="Fashion">
+    <ContentPage.Content>
+        <ScrollView>
+            <AbsoluteLayout BackgroundColor="WhiteSmoke">
+                
+                <StackLayout Orientation="Vertical" BackgroundColor="White" AbsoluteLayout.LayoutBounds="0.5,8,380,170" AbsoluteLayout.LayoutFlags="XProportional">
+                    <ImageButton Source="fash.jpg" Margin="20,8,0,0" Aspect="AspectFill" HeightRequest="150" WidthRequest="150" HorizontalOptions="Start" VerticalOptions="Center"></ImageButton>
+                    <Label Text="PHOERA Liquid Foundation 
+                                Long LAsting Brighten" Margin="195,-120,0,8" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Center"></Label>
+                    <Label Text="US $3.99" Margin="100,0,0,8" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center"></Label>
+
+                </StackLayout>
+               
+                <Grid BackgroundColor="WhiteSmoke" ColumnSpacing="5" RowSpacing="-15"  Margin="40,38,40,0" AbsoluteLayout.LayoutBounds="0.5,140,380,5000" AbsoluteLayout.LayoutFlags="XProportional">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="0.5*"></RowDefinition>
+                        <RowDefinition Height="0.5*"></RowDefinition>
+                        <RowDefinition Height="0.5*"></RowDefinition>
+                        <RowDefinition Height="0.5*"></RowDefinition>
+                        <RowDefinition Height="0.5*"></RowDefinition>
+                        <RowDefinition Height="0.5*"></RowDefinition>
+                        <RowDefinition Height="0.5*"></RowDefinition>
+                        <RowDefinition Height="0.5*"></RowDefinition>
+                        <RowDefinition Height="0.5*"></RowDefinition>
+                        <RowDefinition Height="0.5*"></RowDefinition>
+                        <RowDefinition Height="0.5*"></RowDefinition>
+                        <RowDefinition Height="0.5*"></RowDefinition>
+                        <RowDefinition Height="0.5*"></RowDefinition>
+                        <RowDefinition Height="0.5*"></RowDefinition>
+                        <RowDefinition Height="0.5*"></RowDefinition>
+                        <RowDefinition Height="0.5*"></RowDefinition>
+                        <RowDefinition Height="0.5*"></RowDefinition>
+                        <RowDefinition Height="0.5*"></RowDefinition>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.5*"></ColumnDefinition>
+                        <ColumnDefinition Width="0.5*"></ColumnDefinition>
+
+                    </Grid.ColumnDefinitions>
+                    <BoxView  BackgroundColor="White" Grid.Column="0" Grid.Row="0"  HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="280" CornerRadius="20"  WidthRequest="150" Margin="0,20,0,0"></BoxView>
+                    <ImageButton x:Name="tshirt" Clicked="Tshirt_Clicked" BackgroundColor="Transparent" Opacity="40"  Grid.Column="0" Grid.Row="0" Aspect="AspectFill" HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="150" WidthRequest="150" Source="tshirt.jpg"></ImageButton>
+                        <Label Grid.Column="0" Grid.Row="0"  Text="£2.30-£2.90"  Margin="15,0,0,20" VerticalOptions="End"></Label>
+                        <Label Grid.Column="0" Grid.Row="0"  Text="100+ sold" FontSize="Small"  Margin="105,0,0,8" VerticalOptions="End"></Label>
+                        <Label Grid.Column="0" Grid.Row="0"  Text="20% off"   Margin="15,0,0,5" VerticalOptions="End"></Label>
+
+                    <BoxView BackgroundColor="White" Grid.Column="1" Grid.Row="0"  HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="280" CornerRadius="20"  WidthRequest="150" Margin="0,20,0,0"></BoxView>
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="1" Grid.Row="0" Aspect="AspectFill" HeightRequest="150" WidthRequest="150" Source="wa1.jpg" HorizontalOptions="Center" VerticalOptions="Center"></ImageButton>
+                    <Label Grid.Column="1" Grid.Row="0"  Text="£2.30-£2.0"  Margin="15,0,0,20" VerticalOptions="End"></Label>
+                    <Label Grid.Column="1" Grid.Row="0"  Text="50+ sold" FontSize="Small"  Margin="120,0,0,8" VerticalOptions="End"></Label>
+                    <Label Grid.Column="1" Grid.Row="0"  Text="10% off"   Margin="15,0,0,5" VerticalOptions="End"></Label>
+
+                    <BoxView BackgroundColor="White" Grid.Column="0" Grid.Row="1"  HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="280" CornerRadius="20"  WidthRequest="150" Margin="0,20,0,0"></BoxView>
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="0" Grid.Row="1" Aspect="AspectFill" HeightRequest="150" WidthRequest="150" Source="wa2.jpg" HorizontalOptions="Center" VerticalOptions="Center"></ImageButton>
+                    <Label Grid.Column="0" Grid.Row="1"  Text="£2.0"  Margin="15,0,0,20" VerticalOptions="End"></Label>
+
+
+                    <BoxView BackgroundColor="White" Grid.Column="1" Grid.Row="1"  HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="280" CornerRadius="20"  WidthRequest="150" Margin="0,20,0,0"></BoxView>
+                    <ImageButton  BackgroundColor="Transparent" Grid.Column="1" Grid.Row="1" Aspect="AspectFill" HeightRequest="150" WidthRequest="150" Source="wa3.jpg" HorizontalOptions="Center" VerticalOptions="Center"></ImageButton>
+                    <Label Grid.Column="1" Grid.Row="1"  Text="£2.90"  Margin="15,0,0,20" VerticalOptions="End"></Label>
+                    <Label Grid.Column="1" Grid.Row="1"  Text="70+ sold" FontSize="Small"  Margin="120,0,0,8" VerticalOptions="End"></Label>
+
+                    <BoxView BackgroundColor="White" Grid.Column="0" Grid.Row="2"  HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="280" CornerRadius="20"  WidthRequest="150" Margin="0,20,0,0"></BoxView>
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="0" Grid.Row="2" Aspect="AspectFill" HeightRequest="150" WidthRequest="150" Source="ff2.jpg" HorizontalOptions="Center" VerticalOptions="Center"></ImageButton>
+                    <Label Grid.Column="0" Grid.Row="2"  Text="$5"  Margin="15,0,0,20" VerticalOptions="End"></Label>
+
+                    <BoxView BackgroundColor="White" Grid.Column="1" Grid.Row="2"  HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="280" CornerRadius="20"  WidthRequest="150" Margin="0,20,0,0"></BoxView>
+                    <ImageButton BackgroundColor="Transparent"  Grid.Column="1" Grid.Row="2" Aspect="AspectFill" HeightRequest="150" WidthRequest="150" Source="ff3.jpg" HorizontalOptions="Center" VerticalOptions="Center"></ImageButton>
+                    <Label Grid.Column="1" Grid.Row="2"  Text="£2.30"  Margin="15,0,0,20" VerticalOptions="End"></Label>
+                    <Label Grid.Column="1" Grid.Row="2"  Text="10% off"   Margin="15,0,0,5" VerticalOptions="End"></Label>
+
+                    <BoxView BackgroundColor="White" Grid.Column="0" Grid.Row="3"  HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="280" CornerRadius="20"  WidthRequest="150" Margin="0,20,0,0"></BoxView>
+                    <ImageButton BackgroundColor="Transparent"  Grid.Column="0" Grid.Row="3" Aspect="AspectFill" HeightRequest="150" WidthRequest="150" Source="wa4.jpg" HorizontalOptions="Center" VerticalOptions="Center"></ImageButton>
+                    <Label Grid.Column="0" Grid.Row="3"  Text="10% off"   Margin="15,0,0,5" VerticalOptions="End"></Label>
+                    <Label Grid.Column="0" Grid.Row="3"  Text="£2.90"  Margin="15,0,0,20" VerticalOptions="End"></Label>
+
+                    <BoxView BackgroundColor="White" Grid.Column="1" Grid.Row="3"  HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="280" CornerRadius="20"  WidthRequest="150" Margin="0,20,0,0"></BoxView>
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="1" Grid.Row="3" Aspect="AspectFill" HeightRequest="150" WidthRequest="150" Source="st1.jpg" HorizontalOptions="Center" VerticalOptions="Center"></ImageButton>
+                    <Label Grid.Column="1" Grid.Row="3"  Text="£2.10"  Margin="15,0,0,20" VerticalOptions="End"></Label>
+
+                    <BoxView BackgroundColor="White" Grid.Column="0" Grid.Row="4"  HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="280" CornerRadius="20"  WidthRequest="150" Margin="0,20,0,0"></BoxView>
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="0" Grid.Row="4" Aspect="AspectFill" HeightRequest="150" WidthRequest="150" Source="ff4.jpg" HorizontalOptions="Center" VerticalOptions="Center"></ImageButton>
+                    <Label Grid.Column="0" Grid.Row="4"  Text="£2.30"  Margin="15,0,0,20" VerticalOptions="End"></Label>
+                    <Label Grid.Column="0" Grid.Row="4"  Text="100% off"   Margin="15,0,0,5" VerticalOptions="End"></Label>
+                    <Label Grid.Column="0" Grid.Row="4"  Text="1000+ sold" FontSize="Small"  Margin="105,0,0,8" VerticalOptions="End"></Label>
+
+                    <BoxView BackgroundColor="White" Grid.Column="1" Grid.Row="4"  HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="280" CornerRadius="20"  WidthRequest="150" Margin="0,20,0,0"></BoxView>
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="1" Grid.Row="4" Aspect="AspectFill" HeightRequest="150" WidthRequest="150" Source="wa5.jpg" HorizontalOptions="Center" VerticalOptions="Center"></ImageButton>
+                    <Label Grid.Column="1" Grid.Row="4"  Text="£2.40"  Margin="15,0,0,20" VerticalOptions="End"></Label>
+
+                    <BoxView BackgroundColor="White" Grid.Column="0" Grid.Row="5"  HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="280" CornerRadius="20"  WidthRequest="150" Margin="0,20,0,0"></BoxView>
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="0" Grid.Row="5" Aspect="AspectFill" HeightRequest="150" WidthRequest="150" Source="st2.jpg" HorizontalOptions="Center" VerticalOptions="Center"></ImageButton>
+                    <Label Grid.Column="0" Grid.Row="5"  Text="£2.50"  Margin="15,0,0,20" VerticalOptions="End"></Label>
+
+                    <BoxView BackgroundColor="White" Grid.Column="1" Grid.Row="5"  HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="280" CornerRadius="20"  WidthRequest="150" Margin="0,20,0,0"></BoxView>
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="1" Grid.Row="5" Aspect="AspectFill" HeightRequest="150" WidthRequest="150" Source="ff5.jpg" HorizontalOptions="Center" VerticalOptions="Center"></ImageButton>
+                    <Label Grid.Column="1" Grid.Row="5"  Text="£2.60"  Margin="15,0,0,20" VerticalOptions="End"></Label>
+                    <Label Grid.Column="1" Grid.Row="5"  Text="60+ sold" FontSize="Small"  Margin="120,0,0,8" VerticalOptions="End"></Label>
+
+                    <BoxView BackgroundColor="White" Grid.Column="0" Grid.Row="6"  HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="280" CornerRadius="20"  WidthRequest="150" Margin="0,20,0,0"></BoxView>
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="0" Grid.Row="6" Aspect="AspectFill" HeightRequest="150" WidthRequest="150" Source="st3.jpg" HorizontalOptions="Center" VerticalOptions="Center"></ImageButton>
+                    <Label Grid.Column="0" Grid.Row="6"  Text="£2.70"  Margin="15,0,0,20" VerticalOptions="End"></Label>
+
+                    <BoxView BackgroundColor="White" Grid.Column="1" Grid.Row="6"  HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="280" CornerRadius="20"  WidthRequest="150" Margin="0,20,0,0"></BoxView>
+                    <ImageButton BackgroundColor="Transparent"  Grid.Column="1" Grid.Row="6" Aspect="AspectFill" HeightRequest="150" WidthRequest="150" Source="sh1.jpg" HorizontalOptions="Center" VerticalOptions="Center"></ImageButton>
+                    <Label Grid.Column="1" Grid.Row="6"  Text="£2.70"  Margin="15,0,0,20" VerticalOptions="End"></Label>
+                    <Label Grid.Column="1" Grid.Row="6"  Text="10% off"   Margin="15,0,0,5" VerticalOptions="End"></Label>
+
+                    <BoxView BackgroundColor="White" Grid.Column="0" Grid.Row="7"  HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="280" CornerRadius="20"  WidthRequest="150" Margin="0,20,0,0"></BoxView>
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="0" Grid.Row="7" Aspect="AspectFill" HeightRequest="150" WidthRequest="150" Source="sh5.jpg" HorizontalOptions="Center" VerticalOptions="Center"></ImageButton>
+                    <Label Grid.Column="0" Grid.Row="7"  Text="£2.80"  Margin="15,0,0,20" VerticalOptions="End"></Label>
+
+                    <BoxView BackgroundColor="White" Grid.Column="1" Grid.Row="7"  HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="280" CornerRadius="20"  WidthRequest="150" Margin="0,20,0,0"></BoxView>
+                    <ImageButton BackgroundColor="Transparent"  Grid.Column="1" Grid.Row="7" Aspect="AspectFill" HeightRequest="150" WidthRequest="150" Source="st4.jpg" HorizontalOptions="Center" VerticalOptions="Center"></ImageButton>
+                    <Label Grid.Column="1" Grid.Row="7"  Text="£2.80"  Margin="15,0,0,20" VerticalOptions="End"></Label>
+
+                    <BoxView BackgroundColor="White" Grid.Column="0" Grid.Row="8"  HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="280" CornerRadius="20"  WidthRequest="150" Margin="0,20,0,0"></BoxView>
+                    <ImageButton BackgroundColor="Transparent"  Grid.Column="0" Grid.Row="8" Aspect="AspectFill" HeightRequest="150" WidthRequest="150" Source="sh4.jpg" HorizontalOptions="Center" VerticalOptions="Center"></ImageButton>
+                    <Label Grid.Column="0" Grid.Row="8" TextColor="White"  Text="£2.90"  Margin="15,0,0,20" VerticalOptions="End"></Label>
+                    <Label Grid.Column="0" Grid.Row="8"  Text="10% off"    Margin="15,0,0,5" VerticalOptions="End"></Label>
+
+                    <BoxView BackgroundColor="White" Grid.Column="1" Grid.Row="8"  HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="280" CornerRadius="20"  WidthRequest="150" Margin="0,20,0,0"></BoxView>
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="1" Grid.Row="8" Aspect="AspectFill" HeightRequest="150" WidthRequest="150" Source="sh3.jpg" HorizontalOptions="Center" VerticalOptions="Center"></ImageButton>
+                    <Label Grid.Column="1" Grid.Row="8"  Text="£2.90"  Margin="15,0,0,20" VerticalOptions="End"></Label>
+
+                    <BoxView BackgroundColor="White" Grid.Column="0" Grid.Row="9"  HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="280" CornerRadius="20"  WidthRequest="150" Margin="0,20,0,0"></BoxView>
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="0" Grid.Row="9" Aspect="AspectFill" HeightRequest="150" WidthRequest="150" Source="st5.jpg" HorizontalOptions="Center" VerticalOptions="Center"></ImageButton>
+                    <Label Grid.Column="0" Grid.Row="9"  Text="£3.0"  Margin="15,0,0,20" VerticalOptions="End"></Label>
+
+                    <BoxView BackgroundColor="White" Grid.Column="1" Grid.Row="9"  HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="280" CornerRadius="20"  WidthRequest="150" Margin="0,20,0,0"></BoxView>
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="1" Grid.Row="9" Aspect="AspectFill" HeightRequest="150" WidthRequest="150" Source="sh2.jpg" HorizontalOptions="Center" VerticalOptions="Center"></ImageButton>
+                    <Label Grid.Column="1" Grid.Row="9"  Text="£3.0"   Margin="15,0,0,20" VerticalOptions="End"></Label>
+
+                    <BoxView BackgroundColor="White" Grid.Column="0" Grid.Row="10"  HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="280" CornerRadius="20"  WidthRequest="150" Margin="0,20,0,0"></BoxView>
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="0" Grid.Row="10" Aspect="AspectFill" HeightRequest="150" WidthRequest="150" Source="ti1.jpg" HorizontalOptions="Center" VerticalOptions="Center"></ImageButton>
+                    <Label Grid.Column="0" Grid.Row="10"  Text="£3.10"   Margin="15,0,0,20" VerticalOptions="End"></Label>
+
+                    <BoxView BackgroundColor="White" Grid.Column="1" Grid.Row="10"  HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="280" CornerRadius="20"  WidthRequest="150" Margin="0,20,0,0"></BoxView>
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="1" Grid.Row="10" Aspect="AspectFill" HeightRequest="150" WidthRequest="150" Source="ti2.jpg" HorizontalOptions="Center" VerticalOptions="Center"></ImageButton>
+                    <Label Grid.Column="1" Grid.Row="10"  Text="£4.20"  Margin="15,0,0,20" VerticalOptions="End"></Label>
+                    <Label Grid.Column="1" Grid.Row="10"  Text="50% off"   Margin="15,0,0,5" VerticalOptions="End"></Label>
+
+                    <BoxView BackgroundColor="White" Grid.Column="0" Grid.Row="11"  HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="280" CornerRadius="20"  WidthRequest="150" Margin="0,20,0,0"></BoxView>
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="0" Grid.Row="11" Aspect="AspectFill" HeightRequest="150" WidthRequest="150" Source="ti3.jpg" HorizontalOptions="Center" VerticalOptions="Center"></ImageButton>
+                    <Label Grid.Column="0" Grid.Row="11"  Text="£2.70"  Margin="15,0,0,20" VerticalOptions="End"></Label>
+
+
+                    <BoxView BackgroundColor="White" Grid.Column="1" Grid.Row="11"  HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="280" CornerRadius="20"  WidthRequest="150" Margin="0,20,0,0"></BoxView>
+                    <ImageButton BackgroundColor="Transparent"  Grid.Column="1" Grid.Row="11" Aspect="AspectFill" HeightRequest="150" WidthRequest="150" Source="b1.jpg" HorizontalOptions="Center" VerticalOptions="Center"></ImageButton>
+                    <Label Grid.Column="1" Grid.Row="11"  Text="£5.70"  Margin="15,0,0,20" VerticalOptions="End"></Label>
+
+                    <BoxView BackgroundColor="White" Grid.Column="0" Grid.Row="12"  HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="280" CornerRadius="20"  WidthRequest="150" Margin="0,20,0,0"></BoxView>
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="0" Grid.Row="12" Aspect="AspectFill" HeightRequest="150" WidthRequest="150" Source="blue.jpg" HorizontalOptions="Center" VerticalOptions="Center"></ImageButton>
+                    <Label Grid.Column="0" Grid.Row="12"  Text="£1.70"  Margin="15,0,0,20" VerticalOptions="End"></Label>
+
+                    <BoxView BackgroundColor="White" Grid.Column="1" Grid.Row="12"  HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="280" CornerRadius="20"  WidthRequest="150" Margin="0,20,0,0"></BoxView>
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="1" Grid.Row="12" Aspect="AspectFill" HeightRequest="150" WidthRequest="150" Source="b4.jpg" HorizontalOptions="Center" VerticalOptions="Center"></ImageButton>
+                    <Label Grid.Column="1" Grid.Row="12"  Text="£0.00"  Margin="15,0,0,20" VerticalOptions="End"></Label>
+
+                    <BoxView BackgroundColor="White" Grid.Column="0" Grid.Row="13"  HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="280" CornerRadius="20"  WidthRequest="150" Margin="0,20,0,0"></BoxView>
+                    <ImageButton BackgroundColor="Transparent"  Grid.Column="0" Grid.Row="13" Aspect="AspectFill" HeightRequest="150" WidthRequest="150" Source="sh5.jpg" HorizontalOptions="Center" VerticalOptions="Center"></ImageButton>
+                    <Label Grid.Column="0" Grid.Row="13"  Text="£7.70"  Margin="15,0,0,20" VerticalOptions="End"></Label>
+                    <Label Grid.Column="0" Grid.Row="13"  Text="20% off"   Margin="15,0,0,5" VerticalOptions="End"></Label>
+
+                    <BoxView BackgroundColor="White" Grid.Column="1" Grid.Row="13"  HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="280" CornerRadius="20"  WidthRequest="150" Margin="0,20,0,0"></BoxView>
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="1" Grid.Row="13" Aspect="AspectFill" HeightRequest="150" WidthRequest="150" Source="b12.jpg" HorizontalOptions="Center" VerticalOptions="Center"></ImageButton>
+                    <Label Grid.Column="1" Grid.Row="13"  Text="£5.70"  Margin="15,0,0,20" VerticalOptions="End"></Label>
+
+                    <BoxView BackgroundColor="White" Grid.Column="0" Grid.Row="14"  HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="280" CornerRadius="20"  WidthRequest="150" Margin="0,20,0,0"></BoxView>
+                    <ImageButton  BackgroundColor="Transparent" Grid.Column="0" Grid.Row="14" Aspect="AspectFill" HeightRequest="150" WidthRequest="150" Source="b15.jpg" HorizontalOptions="Center" VerticalOptions="Center"></ImageButton>
+                    <Label Grid.Column="0" Grid.Row="14"  Text="£4.70"  Margin="15,0,0,20" VerticalOptions="End"></Label>
+                    <Label Grid.Column="0" Grid.Row="14"  Text="50+ sold" FontSize="Small"  Margin="120,0,0,8" VerticalOptions="End"></Label>
+
+                    <BoxView BackgroundColor="White" Grid.Column="1" Grid.Row="14"  HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="280" CornerRadius="20"  WidthRequest="150" Margin="0,20,0,0"></BoxView>
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="1" Grid.Row="14" Aspect="AspectFill" HeightRequest="150" WidthRequest="150" Source="ti4.jpg" HorizontalOptions="Center" VerticalOptions="Center"></ImageButton>
+                    <Label Grid.Column="1" Grid.Row="14"  Text="£8.70"  Margin="15,0,0,20" VerticalOptions="End"></Label>
+                    <Label Grid.Column="1" Grid.Row="15"  Text="15% off"   Margin="15,0,0,5" VerticalOptions="End"></Label>
+
+                    <BoxView BackgroundColor="White" Grid.Column="0" Grid.Row="15"  HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="280" CornerRadius="20"  WidthRequest="150" Margin="0,20,0,0"></BoxView>
+                    <ImageButton BackgroundColor="Transparent"  Grid.Column="0" Grid.Row="15" Aspect="AspectFill" HeightRequest="150" WidthRequest="150" Source="b20.jpg" HorizontalOptions="Center" VerticalOptions="Center"></ImageButton>
+                    <Label Grid.Column="0" Grid.Row="15"  Text="£2.70"  Margin="15,0,0,20" VerticalOptions="End"></Label>
+
+                    <BoxView BackgroundColor="White" Grid.Column="1" Grid.Row="15"  HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="280" CornerRadius="20"  WidthRequest="150" Margin="0,20,0,0"></BoxView>
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="1" Grid.Row="15" Aspect="AspectFill" HeightRequest="150" WidthRequest="150" Source="ti5.jpg" HorizontalOptions="Center" VerticalOptions="Center"></ImageButton>
+                    <Label Grid.Column="1" Grid.Row="15"  Text="£0.70"  Margin="15,0,0,20" VerticalOptions="End"></Label>
+
+                    <BoxView BackgroundColor="White" Grid.Column="0" Grid.Row="16"  HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="280" CornerRadius="20"  WidthRequest="150" Margin="0,20,0,0"></BoxView>
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="0" Grid.Row="16" Aspect="AspectFill" HeightRequest="150" WidthRequest="150" Source="ff2.jpg" HorizontalOptions="Center" VerticalOptions="Center"></ImageButton>
+                    <Label Grid.Column="0" Grid.Row="16"  Text="£2.70"  Margin="15,0,0,20" VerticalOptions="End"></Label>
+
+                    <BoxView BackgroundColor="White" Grid.Column="1" Grid.Row="16"  HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="280" CornerRadius="20"  WidthRequest="150" Margin="0,20,0,0"></BoxView>
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="1" Grid.Row="16" Aspect="AspectFill" HeightRequest="150" WidthRequest="150" Source="b8.jpg" HorizontalOptions="Center" VerticalOptions="Center"></ImageButton>
+                    <Label Grid.Column="1" Grid.Row="16"  Text="£0.70"  Margin="15,0,0,20" VerticalOptions="End"></Label>
+                    <Label Grid.Column="1" Grid.Row="16"  Text="30% off"   Margin="15,0,0,5" VerticalOptions="End"></Label>
+
+                    <BoxView BackgroundColor="White" Grid.Column="0" Grid.Row="17"  HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="280" CornerRadius="20"  WidthRequest="150" Margin="0,20,0,0"></BoxView>
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="0" Grid.Row="17" Aspect="AspectFill" HeightRequest="150" WidthRequest="150" Source="b13.jpg" HorizontalOptions="Center" VerticalOptions="Center"></ImageButton>
+                    <Label Grid.Column="0" Grid.Row="17"  Text="£2.70"  Margin="15,0,0,20" VerticalOptions="End"></Label>
+
+                    <BoxView BackgroundColor="White" Grid.Column="1" Grid.Row="17"  HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="280" CornerRadius="20"  WidthRequest="150" Margin="0,20,0,0"></BoxView>
+                    <ImageButton BackgroundColor="Transparent" Grid.Column="1" Grid.Row="17" Aspect="AspectFill" HeightRequest="150" WidthRequest="150" Source="sh5.jpg" HorizontalOptions="Center" VerticalOptions="Center"></ImageButton>
+                    <Label Grid.Column="1" Grid.Row="17"  Text="£2.70"  Margin="15,0,0,20" VerticalOptions="End"></Label>
+                    <Label Grid.Column="1" Grid.Row="17"  Text="20% off"   Margin="15,0,0,5" VerticalOptions="End"></Label>
+
+
+                </Grid>
+                <StackLayout AbsoluteLayout.LayoutBounds="0.5,5200,380,500" AbsoluteLayout.LayoutFlags="XProportional" >
+                    <Label Text="Loading...." TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center"></Label>
+
+                </StackLayout>
+
+
+            </AbsoluteLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
